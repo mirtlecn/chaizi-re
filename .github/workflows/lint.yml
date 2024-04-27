@@ -56,7 +56,7 @@ jobs:
 # client_payload can pass messge to target repo. Access it with github.event.client_payload.<name>
       - name: tigger workflow
         uses: actions/github-script@v7
-        if: steps.check_update.outputs.updated == '1' && github.github_respository == 'mirtlecn/chaizi-re'
+        if: ${{ steps.check_update.outputs.updated == '1' && github.repository == 'mirtlecn/chaizi-re' }}
         with:
           github-token: ${{ secrets.DISPATCH_PAT }}
           script: |
