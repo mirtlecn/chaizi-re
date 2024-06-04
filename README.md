@@ -1,8 +1,9 @@
 # 汉字拆字字典（修订）
 
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-
-源自开放词典的 chaizi 项目。原字典已经不再维护，且有缺字、缺少拆法等问题，故有此项目。
+数据：
+- 开放词典的 chaizi 项目（CC-BY 3.0）
+- https://gitlab.chise.org/CHISE/ids （GPLv2 or later）
+- https://github.com/yi-bai/ids （MIT）
 
 ## 说明
 
@@ -51,6 +52,4 @@
 
 ## Credit
 
-原码表版权归属 ©开放词典，采用 [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) 协议。
-
-本仓库修订过的码表使用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) 协议。
+GPLv3
