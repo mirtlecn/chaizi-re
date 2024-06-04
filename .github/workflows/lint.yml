@@ -2,8 +2,6 @@ name: Lint
 
 on:
   push:
-    branches:
-      - master
     paths:
       - 'radical.yaml'
   workflow_dispatch:
@@ -63,7 +61,7 @@ jobs:
             const result = await github.rest.repos.createDispatchEvent({
               owner: 'mirtlecn',
               repo: 'rime-radical-pinyin',
-              event_type: 'chaizi_update',
+              event_type: 'chaizi_update_v1',
               client_payload: {
                 "version": "2024.03.25"
               }
